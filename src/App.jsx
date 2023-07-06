@@ -33,18 +33,83 @@ function App() {
 
     <h4><em><u>FAQ</u> at:</em><u><a href="https://www.facebook.com/WorcesterYouthFlagFootball/" target="_blank"> www.facebook.com/WorcesterYouthFlagFootbal</a></u></h4>
     <div>--------------------------------------------------------------------------------</div>
-    
     <div>
-      <h6>Print and Fill Out - If Mailing include your check. For In-Person Registration, please bring cash or check.</h6>
-      <h5>Name_____________________________________________  Age_______________  D.O.B._______________</h5>
-      <h5>Address____________________________________________________  Phone__________________________</h5>
-      <h5>City___________________________________________  State__________________  Zip___________________</h5>
-      <h5>Email Address_______________________________________________________________________________</h5>
-      <h5>Emergency Contact: </h5>
-      <h5>Name_______________________________________________________  Phone__________________________</h5>
-      <h5>Name_______________________________________________________  Phone__________________________</h5>
-      <h5>Returning player? - Previous Team & Division______________________________________________</h5>
+    <form>
+      <label>
+        First Name:
+        <input type="text" name="firstName" />
+      </label>
+      
+      <label>
+        Last Name:
+        <input type="text" name="lastName" />
+      </label>
 
+      <label>
+        Age:
+        <input type="text" name="age"/>
+      </label>
+
+      <label>
+        D.O.B.:
+        <input type="text" name="d_o_b"/>
+      </label>
+
+      <label>
+        Email:
+        <input type="text" name="email" />
+      </label>
+
+      <label>
+        Phone Number:
+        <input text="text" name="phone_number" />
+      </label>
+
+      <label>
+        Address:
+        <input type="text" name="address"/>
+      </label>
+
+      <label>
+        City:
+        <input type="text" name="city" />
+      </label>
+
+      <label>
+        State:
+        <input type="text" name="state" />
+      </label>
+
+      <label>
+        Zip:
+        <input type="text" name="zip" />
+      </label>
+
+      <div>--------------------------------------------------------------------------------</div>
+
+      <label>
+        Emergency Contact:
+        <input type="text" name="e_contact" />
+      </label>
+
+      <label>
+        Name:
+        <input type="text" name="e_contact_1" />
+      </label>
+
+      <label>
+        Name:
+        <input type="text" name="e_contact_2" />
+      </label>
+
+      <div>--------------------------------------------------------------------------------</div>
+
+      <label>
+        Returning player? - Previous Team & Division:
+        <input type="text" name="return_player" />
+      </label>
+
+    </form>
     </div>
         <div>--------------------------------------------------------------------------------</div>
 
