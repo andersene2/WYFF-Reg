@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import fillOut from './PFO_Form.jsx' 
 import './App.css'
 
 function App() {
@@ -34,10 +33,21 @@ function App() {
 
     <h4><em><u>FAQ</u> at:</em><u><a href="https://www.facebook.com/WorcesterYouthFlagFootball/" target="_blank"> www.facebook.com/WorcesterYouthFlagFootbal</a></u></h4>
     <div>--------------------------------------------------------------------------------</div>
-    <br></br>
     
-    <p><fillOut /></p>
-    
+    <div>
+      <h6>Print and Fill Out - If Mailing include your check. For In-Person Registration, please bring cash or check.</h6>
+      <h5>Name_____________________________________________  Age_______________  D.O.B._______________</h5>
+      <h5>Address____________________________________________________  Phone__________________________</h5>
+      <h5>City___________________________________________  State__________________  Zip___________________</h5>
+      <h5>Email Address_______________________________________________________________________________</h5>
+      <h5>Emergency Contact: </h5>
+      <h5>Name_______________________________________________________  Phone__________________________</h5>
+      <h5>Name_______________________________________________________  Phone__________________________</h5>
+      <h5>Returning player? - Previous Team & Division______________________________________________</h5>
+
+    </div>
+        <div>--------------------------------------------------------------------------------</div>
+
     </>
   )
 }
