@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import fillOut from './PFO_Form.jsx'
+import fillOut from './PFO_Form.jsx' 
 import './App.css'
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
     <div>--------------------------------------------------------------------------------</div>
     <br></br>
     
-    <fillOut />
+    <p><fillOut /></p>
     
     </>
   )
