@@ -120,8 +120,8 @@ function App() {
             <input type="text" name="zip" value={zip} onChange={e => setZip(e.target.value)} />
           </label>
 
-        <br></br>
-        <br></br>
+          <div>--------------------------------------------------------------------------------</div>
+
 
           <label>
             Emergency Contact:
@@ -147,8 +147,8 @@ function App() {
             <input type="text" name="eCPhone_2" value={eCPhone_2} onChange={e => setECPhone_2(e.target.value)} />
           </label>
 
-          <br></br>
-          <br></br>
+          <div>--------------------------------------------------------------------------------</div>
+
 
           <label>
             Returning player? - Previous Team & Division:
