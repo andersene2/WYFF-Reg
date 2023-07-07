@@ -14,13 +14,13 @@ function App() {
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
   const [zip, setZip] = useState("");
-  const [eCName_1,setECName_1] = useState("");
+  const [eCName_1, setECName_1] = useState("");
   const [eCPhone_1, setECPhone_1] = useState("");
   const [eCName_2, setECName_2] = useState("");
-  const [eCPhone_2, setECPhone_2] = useState(""); 
+  const [eCPhone_2, setECPhone_2] = useState("");
   const [returnPlayer, setReturnPlayer] = useState("");
 
-  function handleFromSubmit(event){
+  function handleFromSubmit(event) {
     event.preventDefault();
     setFirstName("");
     setLastName("");
@@ -57,7 +57,7 @@ function App() {
       <p>West Side Station</p>
       <p>Worcester, MA 01610</p>
 
-      <h4>Commissioner Bob Mohoney: <a>508-762-9019</a></h4>
+      <h4>Commissioner Bob Mahoney: <a href='tel:508-762-9019'> 508-762-9019</a></h4>
 
       <h4><em><u>(insert.year) Registration Fee:</u></em></h4>
       <ul>
