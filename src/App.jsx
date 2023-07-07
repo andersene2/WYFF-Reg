@@ -14,10 +14,30 @@ function App() {
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
   const [zip, setZip] = useState("");
-  const [eContact, setEContact] = useState("");
-  const [eContact_1,setEContact_1] = useState("");
-  const [eContact_2, setEContact_2] = useState("");
+  const [eCName_1,setECName_1] = useState("");
+  const [eCPhone_1, setECPhone_1] = useState("");
+  const [eCName_2, setECName_2] = useState("");
+  const [eCPhone_2, setECPhone_2] = useState(""); 
   const [returnPlayer, setReturnPlayer] = useState("");
+
+  function handleFromSubmit(event){
+    event.preventDefault();
+    setFirstName("");
+    setLastName("");
+    setAge("");
+    setDOB("");
+    setEmail("");
+    setPhoneNumber("");
+    setAddress("");
+    setCity("");
+    setState("");
+    setZip("");
+    setECName_1("");
+    setECPhone_1("");
+    setECName_2("");
+    setECPhone_2("");
+    setReturnPlayer("");
+  }
 
   return (
     <>
@@ -48,7 +68,7 @@ function App() {
       <h4><em><u>FAQ</u> at:</em><u><a href="https://www.facebook.com/WorcesterYouthFlagFootball/" target="_blank"> www.facebook.com/WorcesterYouthFlagFootbal</a></u></h4>
       <div>--------------------------------------------------------------------------------</div>
       <div>
-        <form>
+        <form onSubmit={handleFromSubmit}>
           <label>
             First Name:
             <input type="text" name="first_Name" value={firstName} onChange={e => setFirstName(e.target.value)} />
@@ -100,29 +120,45 @@ function App() {
             <input type="text" name="zip" value={zip} onChange={e => setZip(e.target.value)} />
           </label>
 
-          <div>--------------------------------------------------------------------------------</div>
+        <br></br>
+        <br></br>
 
           <label>
             Emergency Contact:
-            <input type="text" name="e_contact" value={eContact} onChange={e => setEContact(e.target.value)} />
+          </label>
+          <br></br>
+          <label>
+            Name:
+            <input type="text" name="eCName_1" value={eCName_1} onChange={e => setECName_1(e.target.value)} />
           </label>
 
           <label>
+            Phone Number:
+            <input type="text" name="eCPhone_1" value={eCPhone_1} onChange={e => setECPhone_1(e.target.value)} />
+          </label>
+          <br></br>
+          <label>
             Name:
-            <input type="text" name="e_contact_1" value={eContact_1} onChange={e => setEContact_1(e.target.value)} />
+            <input type="text" name="eCName_2" value={eCName_2} onChange={e => setECName_2(e.target.value)} />
           </label>
 
           <label>
-            Name:
-            <input type="text" name="e_contact_2" value={eContact_2} onChange={e => setEContact_2(e.target.value)} />
+            Phone Number:
+            <input type="text" name="eCPhone_2" value={eCPhone_2} onChange={e => setECPhone_2(e.target.value)} />
           </label>
 
-          <div>--------------------------------------------------------------------------------</div>
+          <br></br>
+          <br></br>
 
           <label>
             Returning player? - Previous Team & Division:
             <input type="text" name="return_player" value={returnPlayer} onChange={e => setReturnPlayer(e.target.value)} />
           </label>
+
+          <br></br>
+          <br></br>
+
+          <input type="submit" value="Register" />
 
         </form>
       </div>
