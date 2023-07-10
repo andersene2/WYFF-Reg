@@ -48,9 +48,9 @@ function App() {
       <p>Crompton Park, 47 Quinsigamond Ave, Worcester, MA 01610</p>
 
       <h4><em><u>Mail-in / Phone-in Registration</u></em></h4>
-      <ul>
-        <li><strong>Mail Your Check with this form to:</strong></li>
-      </ul>
+      
+        <p><strong>Mail Your Check with this form to:</strong></p>
+      
       <p>Worcester Youth Flag Football</p>
       <p>P.O. Box 20319</p>
       <p>West Side Station</p>
@@ -59,10 +59,8 @@ function App() {
       <h4>Commissioner Bob Mahoney: <a href='tel:508-762-9019'> 508-762-9019</a></h4>
 
       <h4><em><u>(insert.year) Registration Fee:</u></em></h4>
-      <ul>
-        <li>$90.00 per player</li>
-        <li>$140.00 per family</li>
-      </ul>
+        <p>$90.00 per player</p>
+        <p>$140.00 per family</p>
 
       <h4><em><u>FAQ</u> at:</em><u><a href="https://www.facebook.com/WorcesterYouthFlagFootball/" target="_blank"> www.facebook.com/WorcesterYouthFlagFootbal</a></u></h4>
       <div>--------------------------------------------------------------------------------</div>
@@ -93,6 +91,8 @@ function App() {
             Email:
             <input type="text" name="email" value={email} onChange={e => setEmail(e.target.value)} />
           </label>
+
+          <br></br>
 
           <label>
             Phone Number:
@@ -154,8 +154,8 @@ function App() {
             <input type="text" name="return_player" value={returnPlayer} onChange={e => setReturnPlayer(e.target.value)} />
           </label>
 
-          <br></br>
-          <br></br>
+      <div>--------------------------------------------------------------------------------</div>
+
 
           <input type="submit" value="Register" />
 
