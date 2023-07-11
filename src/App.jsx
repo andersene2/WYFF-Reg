@@ -52,7 +52,25 @@ function App() {
     }
     
     // --------------------Inesrt Data------------------------
-    
+    const registrationObject = {
+      firstName: firstName,
+      lastName: lastName,
+      age: age,
+      DOB: DOB,
+      email: email,
+      phoneNumber: phoneNumber,
+      address: address,
+      city: city,
+      state: state,
+      zip: zip,
+      eCName_1: eCName_1,
+      eCPhone_1: eCPhone_1,
+      eCName_2: eCName_2,
+      eCPhone_2: eCPhone_2,
+      returnPlayer: returnPlayer,
+      
+    }  
+
     const { error } = supabase
       .from( 'registration')
       .insert(registrationObject)
