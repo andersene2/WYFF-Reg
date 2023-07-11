@@ -50,11 +50,11 @@ function App() {
     }
     
     // Listen to inserts
-    const { data: registration, error } = await supabase.from('registration').on('INSERT', handleInserts).subscribe()
+    const { data: registration, error } = supabase.from('registration').on('INSERT', handleInserts).subscribe()
     
     // --------------------Inesrt Data------------------------
     
-    const { error } = await supabase
+    const { error } = supabase
       .from( 'registration')
       .insert({ id: 1, /* fill in with values */})
     // --------------------------------------------------
