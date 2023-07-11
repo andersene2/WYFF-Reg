@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import { supabase } from './supabaseClient'
+import { createClient } from '@supabase/supabase-js'
 import './App.css'
+
+
+
 
 function App() {
   const [firstName, setFirstName] = useState("");
@@ -36,7 +40,29 @@ function App() {
     setECName_2("");
     setECPhone_2("");
     setReturnPlayer("");
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+
+    //---------------------Realtime API----------------------
+    // Create a function to handle inserts
+    const handleInserts = (payload) => {
+      console.log('Change received!', payload)
+    }
+    
+    // Listen to inserts
+    const { data: registration, error } = await supabase.from('registration').on('INSERT', handleInserts).subscribe()
+    
+    // --------------------Inesrt Data------------------------
+    
+    const { error } = await supabase
+      .from( 'registration')
+      .insert({ id: 1, /* fill in with values */})
+    // --------------------------------------------------
+    
+    
   }
+
+
 
   return (
     <>
@@ -164,6 +190,7 @@ function App() {
       <div>--------------------------------------------------------------------------------</div>
 
     </>
+    
   )
 }
 
