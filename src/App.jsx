@@ -49,9 +49,6 @@ function App() {
       console.log('Change received!', payload)
     }
     
-    // Listen to inserts
-    const { data: registration, error } = supabase.from('registration').on('INSERT', handleInserts).subscribe()
-    
     // --------------------Inesrt Data------------------------
     
     const { error } = supabase
