@@ -117,7 +117,7 @@ function App() {
 
       <h4>Commissioner Bob Mahoney: <a href='tel:508-762-9019'> 508-762-9019</a></h4>
 
-      <h4><em><u>(insert.year) Registration Fee:</u></em></h4>
+      <h4><em><u>2023 Registration Fee:</u></em></h4>
         <p>$90.00 per player</p>
         <p>$140.00 per family</p>
 
