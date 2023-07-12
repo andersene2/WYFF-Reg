@@ -14,7 +14,8 @@ B. Key concepts and features learned during the internship starts from learning 
     computer to run commands for a certain output. If a developer needs the same block of code later on, instead of writing 
     the same line of code, we can call the function line, which then runs the entire function we created the first time.
     (Also saves time.)
---------------------------------
+
+    
 Introduciton to React
 A. React is a front-end JS library. It relies on the developer making "components" for the website he or she is creating. 
 B. A safe reason to say why developers use React is because of their JSX syntax. The JSX syntax is a combination of JS 
@@ -22,7 +23,8 @@ B. A safe reason to say why developers use React is because of their JSX syntax.
     HTML and JS first before learning JSX, therefore I had a smoother transition.
     State management is crucial for React as well. The state management is what lets the computer know that something on
     the website has changed. 
----------------------------------
+
+    
 Working with Supabase
 A. Supabase's role with backend developement is that it provides the developer API generation with instant updates. It also 
     offers database management, and authentication. 
@@ -31,7 +33,8 @@ B. The outcome with learning Supabase is still in motion. Setting up the project
     experience for me so it took some time.
     Currently I am struggling with connecting my current form with the database I made on Supabase. Although normally I can 
     say that Supabase is helpful, and once working I'm sure I will sound more positive in this section.
-----------------------------------
+
+
 WYFF Registration Form Project Highlights
 A. The tasks dne to prepare for and complete the work:
   1. Learn HTML
@@ -48,7 +51,8 @@ B. The practical application of JS in the project is using a language usable for
 C. Noteworthy achievments and/or challanges were studying the React projects to the point where I could not use the guides
     or look at the solution before finishing. Helped build my confidence and confirm my knowledge on the tested subjects.
     (As soon as I finish that database and make it work you can bet I am putting that in here.)
-------------------------------------
+
+
 Key Takeaways
 A. My key learnings from the internship experience was that I was able to work in a somewhat professional enviroment. I
     learned how to code in JS, HTML, and React. I also am learning how to use Supabase which once I efficiently learn
@@ -61,7 +65,8 @@ A. My key learnings from the internship experience was that I was able to work i
     coding isn't just rolling the dice when running into a problem. It is breaking down the problem and building a
     plan for each step. Learning how to work long days and running into problems by working remote also made me 
     improvise what I was working on as well so I learned how to properly look up information.
-------------------------------------
+
+
 Conclusion
 A. To anyone aspiring to become a developer, whether you want to become a front-end or back-end, I was able to work on both.
     You get experience for both sides, and for anyone who doesn't know, don't worry I didn't know either. There were days 
