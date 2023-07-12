@@ -23,34 +23,15 @@ function App() {
   const [eCPhone_2, setECPhone_2] = useState("");
   const [returnPlayer, setReturnPlayer] = useState("");
 
-  const registrationObject = {
-    firstName: firstName,
-    lastName: lastName,
-    age: age,
-    DOB: DOB,
-    email: email,
-    phoneNumber: phoneNumber,
-    address: address,
-    city: city,
-    state: state,
-    zip: zip,
-    eCName_1: eCName_1,
-    eCPhone_1: eCPhone_1,
-    eCName_2: eCName_2,
-    eCPhone_2: eCPhone_2,
-    returnPlayer: returnPlayer,
-    
-  }
 
-  function handleFromSubmit(event) {
-    const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+  async function handleFromSubmit(event) {
+    const supabase = createClient("SUPABASE_URL", "SUPABASE_ANON_KEY")
 
     //---------------------Realtime API----------------------
     // Create a function to handle inserts
     const handleInserts = (payload) => {
       console.log('Change received!', payload)
     }
-    
     // --------------------Inesrt Data------------------------
     const registrationObject = {
       firstName: firstName,
@@ -68,12 +49,17 @@ function App() {
       eCName_2: eCName_2,
       eCPhone_2: eCPhone_2,
       returnPlayer: returnPlayer,
-      
     }  
 
-    const { error } = supabase
-      .from( 'registration')
-      .insert(registrationObject)
+      const { data, error } = await supabase
+        .from('registration')
+        .insert([
+          { some_column: 'someValue',
+            some_column: 'otherValue'},
+        ])
+        .select()
+    
+  
     // --------------------------------------------------
     
     event.preventDefault();
@@ -92,7 +78,6 @@ function App() {
     setECName_2("");
     setECPhone_2("");
     setReturnPlayer("");
-    
   }
 
 
