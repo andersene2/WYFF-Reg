@@ -7,7 +7,6 @@ A. JavaScript can be used for both front-end and back-end development. It is pos
     JS can also create, insert, or predict data. Working with different versions like React helps the developer 
     combine HMTL and JS.
 
-    
 B. Key concepts and features learned during the internship starts from learning the basics of JS at Variable and data types. 
     Like I said this is the most basic of creating data like assigning variable some form of value for example a string, number, or even
     or a function.   
@@ -22,7 +21,6 @@ B. Key concepts and features learned during the internship starts from learning 
     
 Introduciton to React:
 
-
 A. React is a front-end JS library. It relies on the developer making "components" for the website he or she is creating. 
 
 B. A safe reason to say why developers use React is because of their JSX syntax. The JSX syntax is a combination of JS 
@@ -33,8 +31,10 @@ B. A safe reason to say why developers use React is because of their JSX syntax.
 
     
 Working with Supabase:
+
 A. Supabase's role with backend developement is that it provides the developer API generation with instant updates. It also 
     offers database management, and authentication. 
+    
 B. The outcome with learning Supabase is still in motion. Setting up the project was a little problematic, although once I 
     got help from John, I realised I was just making a small mistake. Supabase has clear instructions, although it was a new
     experience for me so it took some time.
@@ -43,6 +43,7 @@ B. The outcome with learning Supabase is still in motion. Setting up the project
 
 
 WYFF Registration Form Project Highlights:
+
 A. The tasks dne to prepare for and complete the work:
   1. Learn HTML
   2. Learn JS
@@ -56,12 +57,14 @@ B. The practical application of JS in the project is using a language usable for
     what I was tasked to code with as well, which made it easy when making/using JSX files. React was very nice because most 
     JSX code is placed in one return statement with a fragment "<> </>". Supabase's application was supposed to be used
     to store the user's information when clicking the "register" button, although currently is it not sending the data.
+    
 C. Noteworthy achievments and/or challanges were studying the React projects to the point where I could not use the guides
     or look at the solution before finishing. Helped build my confidence and confirm my knowledge on the tested subjects.
     (As soon as I finish that database and make it work you can bet I am putting that in here.)
 
 
 Key Takeaways:
+
 A. My key learnings from the internship experience was that I was able to work in a somewhat professional enviroment. I
     learned how to code in JS, HTML, and React. I also am learning how to use Supabase which once I efficiently learn
     will be beyond helpful for me and future projects. I feel proficeint in JS, although new developers tend to
@@ -76,6 +79,7 @@ A. My key learnings from the internship experience was that I was able to work i
 
 
 Conclusion: 
+
 A. To anyone aspiring to become a developer, whether you want to become a front-end or back-end, I was able to work on both.
     You get experience for both sides, and for anyone who doesn't know, don't worry I didn't know either. There were days 
     when I didn't want to code because I knew there was a problem I had to try and fix, although I still did it and came out
