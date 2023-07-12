@@ -44,6 +44,7 @@ A. The tasks dne to prepare for and complete the work:
   5. Learn npm/node.js
   6. Take intro to Supabase
   7. Pray
+
 B. The practical application of JS in the project is using a language usable for front-end and back-end development. It was 
     what I was tasked to code with as well, which made it easy when making/using JSX files. React was very nice because most 
     JSX code is placed in one return statement with a fragment "<> </>". Supabase's application was supposed to be used
