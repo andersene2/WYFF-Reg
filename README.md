@@ -1,9 +1,13 @@
 # WYFF-Reg
 Registration Form
 Overview of JavaScript:
+
+
 A. JavaScript can be used for both front-end and back-end development. It is possible to change some HTML and CSS. 
     JS can also create, insert, or predict data. Working with different versions like React helps the developer 
     combine HMTL and JS.
+
+    
 B. Key concepts and features learned during the internship starts from learning the basics of JS at Variable and data types. 
     Like I said this is the most basic of creating data like assigning variable some form of value for example a string, number, or even
     or a function.   
@@ -17,7 +21,10 @@ B. Key concepts and features learned during the internship starts from learning 
 
     
 Introduciton to React:
+
+
 A. React is a front-end JS library. It relies on the developer making "components" for the website he or she is creating. 
+
 B. A safe reason to say why developers use React is because of their JSX syntax. The JSX syntax is a combination of JS 
     and HTML. It was somewhat easy to get used to, even though some information can be hard to grasp at first. I learned 
     HTML and JS first before learning JSX, therefore I had a smoother transition.
