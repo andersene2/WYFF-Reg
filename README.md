@@ -16,7 +16,7 @@ B. Key concepts and features learned during the internship starts from learning 
     (Also saves time.)
 
     
-Introduciton to React
+Introduciton to React:
 A. React is a front-end JS library. It relies on the developer making "components" for the website he or she is creating. 
 B. A safe reason to say why developers use React is because of their JSX syntax. The JSX syntax is a combination of JS 
     and HTML. It was somewhat easy to get used to, even though some information can be hard to grasp at first. I learned 
@@ -25,7 +25,7 @@ B. A safe reason to say why developers use React is because of their JSX syntax.
     the website has changed. 
 
     
-Working with Supabase
+Working with Supabase:
 A. Supabase's role with backend developement is that it provides the developer API generation with instant updates. It also 
     offers database management, and authentication. 
 B. The outcome with learning Supabase is still in motion. Setting up the project was a little problematic, although once I 
@@ -35,7 +35,7 @@ B. The outcome with learning Supabase is still in motion. Setting up the project
     say that Supabase is helpful, and once working I'm sure I will sound more positive in this section.
 
 
-WYFF Registration Form Project Highlights
+WYFF Registration Form Project Highlights:
 A. The tasks dne to prepare for and complete the work:
   1. Learn HTML
   2. Learn JS
@@ -53,7 +53,7 @@ C. Noteworthy achievments and/or challanges were studying the React projects to 
     (As soon as I finish that database and make it work you can bet I am putting that in here.)
 
 
-Key Takeaways
+Key Takeaways:
 A. My key learnings from the internship experience was that I was able to work in a somewhat professional enviroment. I
     learned how to code in JS, HTML, and React. I also am learning how to use Supabase which once I efficiently learn
     will be beyond helpful for me and future projects. I feel proficeint in JS, although new developers tend to
@@ -67,7 +67,7 @@ A. My key learnings from the internship experience was that I was able to work i
     improvise what I was working on as well so I learned how to properly look up information.
 
 
-Conclusion
+Conclusion: 
 A. To anyone aspiring to become a developer, whether you want to become a front-end or back-end, I was able to work on both.
     You get experience for both sides, and for anyone who doesn't know, don't worry I didn't know either. There were days 
     when I didn't want to code because I knew there was a problem I had to try and fix, although I still did it and came out
